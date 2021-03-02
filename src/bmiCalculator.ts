@@ -2,7 +2,6 @@
 
 const calculateBmi = (height: number, weight: number): string => {
   const bmi: number = weight / ((height/100) * (height/100));
-  console.log(bmi);
 
   if(bmi <= 18.5) {
     return 'UnderWeight';
@@ -15,4 +14,7 @@ const calculateBmi = (height: number, weight: number): string => {
   }
 }
 
-console.log(calculateBmi(180,74));
+const height: number = Number(process.argv[2]);
+const weight: number = Number(process.argv[3]);
+
+console.log(calculateBmi(height,weight));
