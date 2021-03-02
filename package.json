@@ -1,0 +1,24 @@
+{
+  "name": "fullstackopen-part9",
+  "version": "1.0.0",
+  "description": "fullstackopen part 9 exercises.",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "calcBmi": "ts-node ./src/bmiCalculator.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredrik655/fullstackopen-part9.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredrik655/fullstackopen-part9/issues"
+  },
+  "homepage": "https://github.com/fredrik655/fullstackopen-part9#readme",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
+  }
+}
